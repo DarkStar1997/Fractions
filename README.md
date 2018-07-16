@@ -7,13 +7,15 @@ This is a lightweight library for performing arithmetic operations with fraction
 
 
 
-The above image basically shows the solution of a system of equations of the form **AX = B** where
+The above image basically shows the solution of a system of equations of the form **AX = B** with 3 unknowns where
 
 A = { 12.34,   23/12,         34,
          98,      23,      35.12,
-         73,      41,    123/412, }
+         73,      41,    123/412, }, with A being a 3ˣ3 matrix
          
-B = {    45,   42.23,      98/67  }
+B = {    45,   42.23,      98/67  }, with B being a 3ˣ1 matrix
+
+and the solution X also being a 3ˣ1 matrix
 
 ## Dependencies
 
